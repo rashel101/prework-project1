@@ -1,0 +1,61 @@
+
+body {
+  font-family: Arial;
+  padding: 20px;
+  background-color:#7e9a9a;
+text-align:center;
+}
+
+
+/* Left column */
+.leftcolumn {
+  float: center;
+  width: 100%;
+
+}
+
+/* Right column */
+.rightcolumn {
+  float: center;
+  width: 100%;
+
+}
+
+/* Fake images because i couldn't figure out how to embed instagram post*/
+.fakeimg {
+  background-color: #ddd;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect */
+.card {
+  background-color: #f6d8ac;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  text-decoration: underline;
+  padding: 10px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 10px;
+}
+
+/* Responsive layout - when the screen is less than 1200px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1200px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
